@@ -3,18 +3,19 @@
   <h1>
      Titulo
     </h1>
-  <CounterComposition />
+  <ExampleFor />
 </template>
 
 <script lang="ts">
 import PostContainer from './components/PostContainer.vue';
 import CounterOption from './components/CounterOption.vue'
-import CounterComposition from './components/CounterComposition.vue'
+//import CounterComposition from './components/CounterComposition.vue'
+import ExampleFor from './components/ExampleFor.vue'
 
 export default {
   name: 'App',
   components: {
-    CounterComposition
+    ExampleFor
   }
 }
 </script>
