@@ -3,7 +3,7 @@
   <h1>
      Titulo
     </h1>
-  <ExampleFor />
+  <ClassBind />
 </template>
 
 <script lang="ts">
@@ -11,11 +11,11 @@ import PostContainer from './components/PostContainer.vue';
 import CounterOption from './components/CounterOption.vue'
 //import CounterComposition from './components/CounterComposition.vue'
 import ExampleFor from './components/ExampleFor.vue'
-
+import ClassBind from './components/ClassBind.vue'
 export default {
   name: 'App',
   components: {
-    ExampleFor
+    ClassBind
   }
 }
 </script>
