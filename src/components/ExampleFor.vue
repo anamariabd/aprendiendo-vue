@@ -8,7 +8,7 @@ import {Ref, ref} from 'vue';
     'Spain', 'France', 'UK', 'Italy', 'Portugal'
 ])*/
 interface Country {code: string, name: string}
-let countries:Ref<Country<>> = ref([
+let countries:Ref<Array<Country>> = ref([
 {code: 'es', name: 'Spain'},{code: 'fr', name: 'France'},{code: 'en', name: 'UK'},{code: 'es', name: 'Italy'}
 ])
 </script>

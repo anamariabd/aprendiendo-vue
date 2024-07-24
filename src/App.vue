@@ -3,19 +3,15 @@
   <h1>
      Titulo
     </h1>
-  <ClassBind />
+  <PostList />
 </template>
 
 <script lang="ts">
-import PostContainer from './components/PostContainer.vue';
-import CounterOption from './components/CounterOption.vue'
-//import CounterComposition from './components/CounterComposition.vue'
-import ExampleFor from './components/ExampleFor.vue'
-import ClassBind from './components/ClassBind.vue'
+import PostList from './components/PostList.vue'
 export default {
   name: 'App',
   components: {
-    ClassBind
+    PostList
   }
 }
 </script>
